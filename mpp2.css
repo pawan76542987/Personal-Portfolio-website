@@ -1,0 +1,739 @@
+* {
+    text-decoration: none;
+    overflow-x: hidden;
+
+
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4vh;
+    background-color: rgb(8, 2, 2);
+    margin: 0px;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border: 10px solid rgba(0, 0, 0, 0.145);
+    box-shadow: 0px 0px 10px rgba(148, 143, 145, 0.639);
+}
+
+.h1 {
+    margin: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.h2 {
+    margin: 0px 0px 10px 0px;
+    color: color-mix(in srgb, rgb(26, 1, 247) 30%, rgb(249, 3, 224) 90%);
+}
+
+#d1 {
+    color: white;
+    margin: 20px;
+}
+
+#myname {
+    height: 100px;
+}
+
+#myname1 {
+    height: 100px;
+}
+
+
+#Hello {
+    font-size: 80px;
+    margin: 0px;
+
+    animation-name: myname;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+
+
+}
+#hd2 {
+
+/* display: flex; */
+flex-wrap: wrap;
+
+}
+@keyframes myname {
+    0% {
+        font-size: 70px;
+    }
+
+    50% {
+        font-size: 80px;
+    }
+
+    100% {
+        font-size: 70px;
+    }
+}
+
+#name {
+    font-size: 70px;
+    margin: 0px;
+    color:
+        color-mix(in srgb, rgb(25, 0, 255) 30%, rgb(194, 62, 181) 90%);
+    animation-name: myname1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes myname1 {
+    0% {
+        font-size: 60px;
+    }
+
+    50% {
+        font-size: 70px;
+    }
+
+    100% {
+        font-size: 60px;
+    }
+}
+
+.dsa {
+    margin: 30px;
+}
+
+.dsa span {
+    color: rgb(0, 64, 255);
+}
+
+#button1 {
+    border: 3px solid rgba(5, 4, 6, 0.833);
+    border-radius: 8px;
+    box-shadow: inset;
+    /* font-size: xx-large;margin: 10px; */
+    height: 40px;
+    width: 150px;
+    background: linear-gradient(to left, rgb(110, 93, 237), rgb(221, 107, 214));
+}
+
+#button2 {
+    border: 1px solid rgb(106, 125, 202);
+    border-radius: 8px;
+    box-shadow: inset;
+    /* font-size: xx-large;margin: 10px; */
+    background-color: black;
+    color: rgb(106, 125, 202);
+    height: 37px;
+    width: 150px;
+    margin: 10px;
+}
+
+.Mirai {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 15px blue;
+
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes myanimation {
+    0% {
+        height: 80px;
+        width: 80px;
+        border-radius: 100%;
+    }
+
+    10% {
+        height: 85px;
+        width: 85px;
+        border-radius: 100%;
+    }
+
+    20% {
+        height: 90px;
+        width: 90px;
+        border-radius: 100%;
+    }
+
+    30% {
+        height: 95px;
+        width: 95px;
+        border-radius: 100%;
+    }
+
+    40% {
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+    }
+
+    50% {
+        height: 105px;
+        width: 105px;
+        border-radius: 100%;
+    }
+
+    60% {
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+    }
+
+    70% {
+        height: 95px;
+        width: 95px;
+        border-radius: 100%;
+    }
+
+    80% {
+        height: 90px;
+        width: 90px;
+        border-radius: 100%;
+    }
+
+    90% {
+        height: 85px;
+        width: 85px;
+        border-radius: 100%;
+    }
+
+    100% {
+        height: 80px;
+        width: 80px;
+        border-radius: 100%;
+        rotate: 360deg;
+    }
+}
+
+#ppi {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    border: 5px solid #ddd;
+
+    box-shadow: 0px 0px 15px blue;
+    animation-name: myanimation2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myanimation2 {
+    0% {
+        height: 250px;
+        width: 250px;
+        border-radius: 100%;
+    }
+
+    10% {
+        height: 255px;
+        width: 255px;
+        border-radius: 100%;
+    }
+
+    20% {
+        height: 260px;
+        width: 260px;
+        border-radius: 100%;
+    }
+
+    30% {
+        height: 265px;
+        width: 265px;
+        border-radius: 100%;
+    }
+
+    40% {
+        height: 270px;
+        width: 270px;
+        border-radius: 100%;
+    }
+
+    50% {
+        height: 275px;
+        width: 275px;
+        border-radius: 100%;
+    }
+
+    60% {
+        height: 270px;
+        width: 270px;
+        border-radius: 100%;
+    }
+
+    70% {
+        height: 265px;
+        width: 265px;
+        border-radius: 100%;
+    }
+
+    80% {
+        height: 260px;
+        width: 260px;
+        border-radius: 100%;
+    }
+
+    90% {
+        height: 255px;
+        width: 255px;
+        border-radius: 100%;
+    }
+
+    100% {
+        height: 250px;
+        width: 250px;
+        border-radius: 100%;
+       
+    }
+}
+
+#maind1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:px) {
+
+
+
+
+}
+@media screen and (max-width:1237px) {
+    
+    #maind1 {
+
+
+
+       display: flex;
+       flex-direction: column;
+       justify-self: center;
+
+    }
+
+
+    .myname {display: flex;
+    align-self: center;
+    
+    
+    }
+    .amp {flex-wrap: wrap;}
+    #ap {flex-wrap: wrap;}
+    #d2 {margin-left: 8vh;}
+    
+#Hello {margin-right: 30px;}
+
+#button1 {justify-self: center;}
+#button2 {justify-self: center;}
+
+}
+
+#d2 {
+    margin-top: 80px;
+    display: grid;
+    grid-template-rows: 120px 250px 120px;
+    grid-template-columns: 120px 250px 120px;
+}
+
+
+@media screen and (max-width:1237px) {
+
+#d2 {
+
+justify-self: center;
+
+
+}
+
+}
+
+.Mirai1 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.Mirai2 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+#main2 {
+    color: white;
+    display:
+        flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#Aboutme div h1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:
+        color-mix(in srgb, rgb(26, 1, 247) 30%,
+            rgb(249, 3, 224) 90%);
+    font-size: 50px;
+}
+
+
+#ap {
+    /* width: 1100px; */
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    color: white;
+    align-items: center;
+    background-color: rgba(90, 97, 124, 0.275);
+    border-radius: 20px;
+    margin: 0px 0px 150px 0px;
+}
+
+
+
+#md2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 200vw;
+    animation: scroll 25s linear infinite;
+    overflow: hidden;
+    
+    flex-wrap:wrap-reverse;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+    
+}
+#md2 :hover { 
+    animation-name: scrolls;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes scrolls {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#md2 div {
+    margin: 30px;
+    border: 3px solid rgb(3, 3, 3);
+    height: 200px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(57, 71, 88, 0.428);
+    border-radius: 20px;
+}
+
+#md2 div:hover {
+    box-shadow: 0px 0px 100px rgb(45, 7, 170);
+
+
+
+}
+
+.b {
+    border: 3px solid rgba(62, 60, 60, 0.198);
+    border-radius: 20px;
+    box-shadow:  5px rgba(0, 0, 255, 0.246) ;
+    padding: 5px;
+    
+    margin-top: 30px;
+    background: linear-gradient(to left, rgb(110, 93, 237), rgb(221, 107, 214));
+    
+}
+
+#main4 div {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#main4 div h3 {
+    margin: 10px;
+    border: 0px solid rgb(49, 4, 246);
+    border-radius: 15px;
+    padding: 8px;
+
+
+
+
+}
+
+
+
+
+
+#main4 div h3:hover {
+    background: linear-gradient(to left, rgb(110, 93, 237), rgb(221, 107, 214));
+    ;
+    box-shadow: 0px 0px 100px rgb(135, 160, 135);
+}
+
+#main5 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+#Structured {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.year {
+    border: 3px solid white;
+    margin: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    animation-name: myanimation1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+
+}
+.yt {
+
+    flex-wrap: wrap;
+
+
+}
+
+@keyframes myanimation1 {
+    
+
+
+
+
+}
+
+.year:hover {
+    box-shadow: 0px 0px 50px rgb(25, 0, 255);
+}
+
+.amp:hover {
+    color: rgb(224, 67, 217);
+}
+
+#Education div h1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:
+        color-mix(in srgb, rgb(26, 1, 247) 30%,
+            rgb(249, 3, 224) 90%);
+    font-size: 50px;
+}
+
+#Ed2 {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    color: white;
+    align-items: center;
+    background-color: rgba(90, 97, 124, 0.275);
+    border-radius: 20px;
+    margin: 0px 0px 150px 0px;
+}
+
+#Ed2 h2,
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+#ditails span {
+    color: rgba(255, 255, 255, 0.579);
+}
+
+#Ed2 h2 span {
+    color: blue;
+}
+
+
+#Projects div h1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:
+        color-mix(in srgb, rgb(26, 1, 247) 30%,
+            rgb(249, 3, 224) 90%);
+    font-size: 50px;
+}
+
+#pd2 {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    color: white;
+    align-items: center;
+    background-color: rgba(90, 97, 124, 0.275);
+    border-radius: 20px;
+    margin: 0px 0px 150px 0px;
+}
+
+#pd2 span {
+    font-size: 80px;
+    color: rgba(0, 0, 255, 0.686);
+}
+
+#Experience div h1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:
+        color-mix(in srgb, rgb(26, 1, 247) 30%,
+            rgb(249, 3, 224) 90%);
+    font-size: 50px;
+}
+
+#exd2 span {
+    font-size: 80px;
+    color: #0000ffaf;
+}
+
+
+#exd2 {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    color: white;
+    align-items: center;
+    background-color: rgba(90, 97, 124, 0.275);
+    border-radius: 20px;
+    margin: 0px 0px 150px 0px;
+}
+
+#GetInTouch div h1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:
+        color-mix(in srgb, rgb(26, 1, 247) 30%,
+            rgb(249, 3, 224) 90%);
+    font-size: 50px;
+}
+
+#mget {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#get1 {
+    display: flex;
+    flex-direction: column;
+width: 30vw;
+    border: 2px solid rgba(46, 45, 45, 0.267);
+
+    background-color: rgba(16, 14, 14, 0.39);
+
+    margin: 5px;
+    background-color: rgba(90, 97, 124, 0.275);
+}
+
+#get1 a,
+h2 {
+    margin: 20px;
+    
+}
+#get1 a {
+    color: rgba(255, 255, 255, 0.807);
+}
+#get1 a:hover {color: blue;
+
+box-shadow: 10px white;
+
+}
+
+#get2 {
+    border: 2px solid rgba(46, 45, 45, 0.267);
+padding: 10px;
+    margin: 5px;
+   background-color: rgba(90, 97, 124, 0.275);
+}
+
+#get2 p {
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.778);
+    
+}
+
+.WhatsApp {
+    border: 2px solid rgba(255, 255, 255, 0.333);
+    height: 5vh;
+    width: 20vw;
+    background-color: color-mix(in srgb, rgb(26, 1, 247) 30%,   rgb(249, 3, 224) 90%);
+           display: flex;
+        justify-self: center;
+        border-radius: 10px;
+       padding: 5px 0px 0px 130px;
+       font-size: large;
+      
+}
+
+.WhatsApp span {display: flex;}
+footer  {margin-top: 50px;
+    background-color: rgba(90, 97, 124, 0.275);
+    width: 100vw;
+    height: 15vh;
+    padding-top: 20px;
+    /* border: 5px soli white; */
+}
+#footericon {
+display: flex;
+justify-content: center;
+font-size: xx-large;}
+#footerl {
+
+    display: flex;
+    justify-content: center;
+    color: white;
+}
